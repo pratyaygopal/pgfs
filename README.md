@@ -166,5 +166,5 @@ Chunk[j] offset:      512 + B × 512 + F × 512 + j × 65536
 
 ---
 
-**Note**: The script uses `/dev/zero` and `dd` for creating the image. On some systems, you may see warnings about partial reads—these are normal and can be safely ignored.
+**Note**: The script uses `/dev/zero` and `dd` for creating the image. On some systems, you may see warnings about partial reads. These are normal and can be safely ignored.
 
